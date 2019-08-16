@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="serial_port_spinner_values">
+        <item>/dev/ttyS0</item>
+        <item>/dev/ttyS1</item>
+        <item>/dev/ttyS2</item>
+        <item>/dev/ttyS3</item>
+        <item>/dev/ttyS4</item>
+        <item>/dev/ttyUSB0</item>
+        <item>/dev/ttyUSB1</item>
+        <item>/dev/ttyUSB2</item>
+        <item>/dev/ttyUSB3</item>
+        <item>/dev/ttyUSB4</item>
+    </string-array>
+
+    <string-array name="serial_rate_spinner_values">
+        <item>0(50)</item>
+        <item>1(75)</item>
+        <item>2(110)</item>
+        <item>3(134)</item>
+        <item>4(150)</item>
+        <item>5(200)</item>
+        <item>6(300)</item>
+        <item>7(600)</item>
+        <item>8(1200)</item>
+        <item>9(1800)</item>
+        <item>10(2400)</item>
+        <item>11(4800)</item>
+        <item>12(9600)</item>
+        <item>13(19200)</item>
+        <item>14(38400)</item>
+        <item>15(57600)</item>
+        <item>16(115200)</item>
+        <item>17(230400)</item>
+        <item>18(460800)</item>
+        <item>19(500000)</item>
+        <item>20(576000)</item>
+        <item>21(921600)</item>
+        <item>22(1000000)</item>
+        <item>23(1152000)</item>
+        <item>24(1500000)</item>
+        <item>25(2000000)</item>
+        <item>26(2500000)</item>
+        <item>27(3000000)</item>
+        <item>28(3500000)</item>
+        <item>29(4000000)</item>
+    </string-array>
+
+    <string-array name="command_cmd_spinner_values">
+        <item>设置设备编号</item>
+        <item>设置波特率</item>
+        <item>设置延时</item>
+        <item>获取唯一ID</item>
+        <item>获取触摸状态</item>
+        <item>清除指定用户信息</item>
+        <item>清除所有用户信息</item>
+        <item>获取空id</item>
+        <item>获取总登录用户数和模板数</item>
+        <item>获取指定ID登录信息</item>
+        <item>恢复出厂设置</item>
+        <item>获取系统信息</item>
+        <item>上传模板</item>
+        <item>下载模板</item>
+    </string-array>
+</resources>
